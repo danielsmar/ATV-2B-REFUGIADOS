@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>CONTATO</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div>
+        <header>
+          <nav>
+            <a class="logo" href="/">UKRAINE WOMEN</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Doação</a></li>
+              <li><a id="contato-nav-button" href="#">Contato</a></li>
+            </ul>
+          </nav>
+        </header>
+        <script src="mobile-menu.js"></script>
+      </div>
+
+      <div class="email-container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Endereço</div>
+              <div class="text-one">Rua Marajó, 562</div>
+              <div class="text-two">Glória - Vila Velha</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Telefone</div>
+              <div class="text-one">+55 27 3534-9863</div>
+              <div class="text-two">+55 27 4002-8922</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">contato@ukrainewomen.com.br</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Ficou com alguma dúvida?</div>
+            <p class="topic-text-2">
+              Entre em contato conosco através dos canais de comunicação abaixo
+              que estaremos te auxiliando!
+            </p>
+            <form action="#" autocomplete="off">
+              <div class="input-box">
+                <input type="text" id="nome" placeholder="Digite seu nome" />
+                <small id="textNome"></small>
+              </div>
+              <div class="input-box">
+                <input type="text" id="email" placeholder="Digite seu email" />
+                <small id="textEmail"></small>
+              </div>
+              <div class="input-box message-box">
+                <textarea id="msg" placeholder="Digite sua mensagem"></textarea>
+                <small id="textMsg"></small>
+              </div>
+              <button type="submit" class="button">Enviar</button><br />
+              <small id="textForm"></small>
+            </form>
+
+            <script src="validador.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
