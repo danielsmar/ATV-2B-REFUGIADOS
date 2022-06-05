@@ -9,6 +9,7 @@ form.addEventListener("submit", (e) => {
   if (nome.value == "" || email.value == "" || msg.value == "") {
     textForm.textContent = "Preencha todos os Campos!";
   } else {
+    textForm.textContent = "Mensagem enviada com Sucesso!";
     console.log(nome.value);
     console.log(email.value);
     console.log(msg.value);
