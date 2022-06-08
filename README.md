@@ -1,4 +1,4 @@
-# Sobre o Projeto
+# Sobre os Scripts
 
 ## Menu Mobile
 O site possui um Header responsivo que a medida que diminui de tamanho se adapta a tela e sendo menor que 999px as opções do header vão para um menu hamburguer que tem sua ativação via JavaScrip.
