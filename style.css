@@ -100,18 +100,20 @@ header {
     right: 0;
     width: 40vw;
     height: 92vh;
-    background: #9c5365;
-    border: 2px solid #1a1919;
+    background: #3b3a3a;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     border-radius: 6px;
+    display: none;
   }
   .nav-list li {
     margin-left: 0;
+    margin-top: 40px;
     opacity: 0;
+    text-align: center;
   }
 
   .mobile-menu {
@@ -121,6 +123,7 @@ header {
 
 .nav-list.active {
   transform: translateX(0);
+  display: table;
 }
 
 @keyframes navLinkFade {
